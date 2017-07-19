@@ -19,7 +19,7 @@
        Pavel Sarwar
     </author>
 	
-	<content src="index.html" />
+	<content src="index.html"/>
 
 	
 	<icon src="res/mipmap-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi" />
@@ -46,6 +46,6 @@
 	<preference name="android-minSdkVersion" value="7" /> <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
 	<preference name="android-installLocation" value="auto" /> <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 
-    
+    <allow-navigation href="http://jalinanduta.com/*" />
     <access origin="*"/>
 </widget>
