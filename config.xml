@@ -5,7 +5,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.jalinan.dutapvl"
         versionCode = "34" 
-	version   = "1.0.0">
+		version   = "1.0.0">
 
     <name>Jalinan Duta</name>
 
@@ -19,6 +19,7 @@
        Pavel Sarwar
     </author>
 	
+	<content src="index.html" />
 
 	
 	<icon src="res/mipmap-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi" />
@@ -38,7 +39,7 @@
 	
     <!-- Customize your app and platform with the preference element. -->
 	<preference name="permissions" value="none"/>
-    <preference name="phonegap-version"           value=""3.7.0"" />          <!-- all: current version of PhoneGap -->
+    <preference name="phonegap-version"           value="3.7.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
